@@ -1,0 +1,32 @@
+{
+  "id": "modify-draw-steel-xp-per-level",
+  "title": "Modify Draw Steel XP per Level",
+  "description": "Modify amount of XP needed per level via additional input field (overrides standard settings).",
+  "authors": [
+    {
+    "name": "Stephan L.",
+    "discord": "Zekatar"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+   },
+  "relationships": {
+    "systems": [
+      {
+        "id": "draw-steel",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "scripts": [
+  "./scripts/settings.js",
+  "./scripts/setXP.js"
+  ],
+    "url": "",
+    "manifest": "",
+    "download": ""
+}
